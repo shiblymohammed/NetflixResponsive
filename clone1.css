@@ -1,0 +1,434 @@
+
+ body{
+        font-family: "Poppins", sans-serif;
+        background-color: black;
+        color: white;
+      }
+
+
+
+      .main {
+        height: 100vh;
+        width: 100%;
+        margin-bottom: 5px;
+        background-image: 
+            linear-gradient(to top, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.8) 80%), 
+            url(/images/background.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        overflow: auto;
+    }
+    
+
+  /* navbar items */
+
+ .signin{
+    background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+ }
+ .signin:hover{
+  background-color: #8f0007;
+ }
+
+ .lang-btn{
+    background: transparent;
+    color: white;
+    padding: 5px 12px;
+    border: 1.5px solid  white ;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 16px;
+    font-weight: bold;
+ }
+ .lang-btn option{
+    color: black;
+ }
+ .navbar-brand{
+    padding: 130px;
+ }
+ .navbar-brand img{
+    height: 40px;
+ }
+ .btn {
+    padding: 130px;
+    margin-right: 130px;
+ }
+
+  
+
+  /* main contents text */
+  .main-heading{
+    height: 800px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .main-heading h1{
+    font-size: 4.125rem;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    
+    }
+    .main-heading h2{
+      font-weight: normal;
+      font-size: 1.5rem;
+      margin-top: 10px;
+      margin-bottom: 29px;
+      color: white;
+      text-align: center;
+    }
+    .main-heading h3{
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: white;
+      text-align: center;
+      
+    }
+
+   form{
+    width: 60%;
+
+   }
+
+   form #floatingInput {
+    color: white;
+   }
+
+   form .form-control:focus{
+    border-color: white;
+    box-shadow: none;
+    border-width: medium;
+   }
+   form .form-floating>.form-control:focus~label {
+    color: rgba(255, 255, 255, 0.7);
+   }
+   form .form-floating>.form-control:focus~label::after {
+    background-color: transparent;
+   }
+   form .form-floating{
+    width: 50%;
+   }
+   form #floatingInput{
+    background: transparent;
+   }
+   form label {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 10px;
+   }
+   .get-started-btn{
+    height: 60px;
+    font-size: 1.5rem;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: #bc0009;
+    border-radius: 5px;
+    border: none;
+    color: white;
+   }
+   .get-started-btn:hover{
+    background-color: #8f0007;
+   }
+   
+   .get-started-btn::after{
+    content: "\276F";
+    margin-left: 5px;
+
+   }
+   .get{
+    height: 51px;
+    background-color: #e50914;
+    color: white;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+  }
+  .get:hover{
+    background-color: #bc0009;
+  }
+
+.row{
+  margin: 10px;
+}
+
+.col-6 h1{
+    font-size: 4rem;
+}
+.col-6 p{
+    font-size: 1.4rem;
+} 
+
+.feature-row{
+  height: 100vh;
+}
+
+
+
+/* fq container css */
+
+/* FAQ Container */
+.faq-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 15px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+/* faq */
+
+.accordion-item{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+.faq-main{
+    padding: 25px;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.faq-section h3{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    
+}
+
+.faq-section button{
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+.faq-section .accordion {
+    
+    --bs-accordion-color: rgb(255,255,255);
+    --bs-accordion-bg: rgb(45,45,45);
+    --bs-accordion-border-color: none;
+    --bs-accordion-border-radius:none;
+
+}
+
+.faq-section .accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.faq-section .accordion-button:focus{
+    border: none;
+    box-shadow: none;
+
+}
+
+.faq-section .accordion-button:hover{
+    background-color: rgb(65, 65, 65);
+}
+
+.faq-section .accordion-button:not(.collapsed){
+    background-color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
+}
+.faq-section .accordion-button::after{
+    content: "+";
+    background-image: none;
+    position: absolute;
+    height: 30px;
+    font-size: 50px;
+    top: 5px;
+    right: 45px;
+
+}
+.accoirdion-body{
+    padding: 18px;
+    
+    font-size: 1.5rem;
+}
+
+.faq-section .accordion-button:not(.collapsed)::after{
+  
+    background-image: none;
+    transform: none;
+    content: "\00d7";
+    
+}
+
+
+/* footer */
+.lang-btn2{
+    background: transparent;
+    color: white;
+    padding: 5px 12px;
+    border: 1.5px solid  white ;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+ }
+ .lang-btn2 option{
+    color: black;
+ }
+ 
+
+ footer p,
+ footer a {
+    padding-left: 0;
+    color: rgb(155, 155, 155);
+
+ }
+
+ footer ul {
+    padding-left: 0;
+ }
+ footer li {
+    list-style-type: none;
+
+ }
+ 
+
+ 
+ .second-button{
+  margin: 10px;
+  align-items: center;
+ }
+ .second-button::after{
+  content: '';
+ }
+ .second-button p{
+  padding-top: 10px;
+ }
+
+
+/* ======================================================================= */
+
+@media only screen and (max-width: 576px)
+
+{
+
+  
+  .navbar-brand{
+           padding: 12px;
+  }
+ .navbar-brand img{
+  height: 28px;
+ }
+ .lang-btn{
+  width: 40px;
+ }
+ nav .container-fluid{
+  padding: 0;
+  margin: 0;
+ }
+
+  .btn{
+    margin: 5px;
+    padding: 5px;
+
+  }
+
+  .main-heading h1{
+    font-size: 2rem;
+  }
+  .main-heading h2{
+    font-size: 1.2rem;
+  }
+  .main-heading h3{
+    font-size: 1rem;
+  }
+  .col-6 h1{
+    font-size: 2rem;
+  }
+  .main{
+    overflow: auto;
+  }
+  .row{
+    flex-direction: column;
+  }
+  
+  .faq-main{
+    font-size: 2rem;
+  }
+  .accordion-item{
+    width: 300px;
+    
+  }
+  .accordion{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+ .accordion-item h2 button{
+  font-size: 1rem;
+ }
+ .faq-section .accordion-button::after{
+  font-size: 30px;
+  top: 14px;
+  right: 20px;
+ }
+
+ .second-form{
+  flex-direction: column;
+  align-items: center;
+ }
+ .second-input{
+  margin-bottom: 10px;
+  
+ }
+ .second-button p{
+  font-size: 1rem;
+  padding: 6px;
+  
+ }
+ .second-button{
+  height: 40px;
+   padding: 5px;
+ }
+  
+ .get-started-btn::after{
+  content: "";
+  
+ }
+  form .form-floating{
+    width: 95%;
+  }
+
+   
+  .feature-row{
+    height: auto;
+    padding: 50px;
+  }
+
+  .col-6 p{
+     font-size: 1rem;
+  }
+
+
+
+
+}
+
+
+
+
+ 
+ 
+
+
+
+  
